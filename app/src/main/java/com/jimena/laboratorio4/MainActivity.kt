@@ -7,7 +7,7 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     //Declaracion de variables
-    lateinit var btnToNextActivity: Button
+    lateinit var btnToNextActivity: Button //lateinit es para que no se genere un error de que no se ha inicializado la variable
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

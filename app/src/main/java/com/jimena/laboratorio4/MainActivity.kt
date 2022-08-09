@@ -2,12 +2,12 @@ package com.jimena.laboratorio4
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+import android.widget.Button
 
 
 class MainActivity : AppCompatActivity() {
     //Declaracion de variables
-    lateinit var btnToNextActivity: android.widget.Button
+    lateinit var btnToNextActivity: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

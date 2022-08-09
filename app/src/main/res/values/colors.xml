@@ -12,4 +12,5 @@
     <color name="surface_dark_primary">#C0ACEC</color>
     <color name="icon_color">#270E67</color>
     <color name="font_color_over_surface">#270E67</color>
+    <color name="font_aqua">#3DA9C9</color>
 </resources>

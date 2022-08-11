@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     fun initListeners() {
 
         btnToNextActivity.setOnClickListener {
-            Toast.makeText(this, "Karen Jimena Hernández Ortega", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.name), Toast.LENGTH_LONG).show()
         }
         btnTerminarjornada.setOnClickListener {
             Toast.makeText(this, "Jornada finalizada", Toast.LENGTH_LONG).show()

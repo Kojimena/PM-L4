@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background= "@color/surface_dark"
+    android:background= "@color/surface_light_primary"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -48,7 +48,6 @@
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:fontFamily="arial"
             android:padding="@dimen/padding"
             android:text="@string/descargar_text"
@@ -64,10 +63,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="arial"
-        android:padding="@dimen/padding"
         android:text="@string/Diacumple"
         android:textColor="@color/black"
-        android:textSize="12sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -91,15 +89,13 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="91dp"
-        android:text="@string/diacumple_text"
 
+        android:text="@string/diacumple_text"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
-        app:layout_constraintTop_toTopOf="@+id/Actualizaciondisp" />
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Actualizaciondisp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -141,8 +137,9 @@
             android:layout_height="wrap_content"
             android:fontFamily="arial"
             android:padding="@dimen/padding"
-            android:text="NacionSushi"
+            android:text="@string/nombreres"
             android:textColor="@color/gris"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/button3"
             app:layout_constraintTop_toTopOf="parent" />
@@ -162,7 +159,7 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="8:00 am 10:00 pm"
+            android:text="@string/hora"
             android:textSize="12sp"
             android:fontFamily="arial"
             android:textColor="@color/gris"

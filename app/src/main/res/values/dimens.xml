@@ -7,4 +7,5 @@
     <dimen name="Buttonhei">40dp</dimen>
     <dimen name="constraintwhite">100dp</dimen>
     <dimen name="padding">10dp</dimen>
+    <dimen name="marginStart">4dp</dimen>
 </resources>
